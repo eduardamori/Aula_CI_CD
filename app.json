@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "eduarda_ci_cd",
+    "slug": "eduarda_ci_cd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cicdeduardaios",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.duda_mori.eduardacicd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "duda_mori",
+    "extra": {
+      "eas": {
+        "projectId": "c492c387-8226-41b2-86fa-668f7221da10"
+      }
+    }
+  }
+}
